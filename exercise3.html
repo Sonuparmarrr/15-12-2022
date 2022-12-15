@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Sign Up</title>
+        <link href="exercise3.css" rel="Stylesheet">
+    </head>
+    <body>
+        <div class="main-Container">
+            <div class="container1">
+        <h1>Sign Up</h1>
+        <p>Please fill in this form to create an account!</p>
+        <hr>
+        <div class="namebox">
+             <input type="text" placeholder="First Name" required action="#" onsubmit="return validate()">
+        </div>
+        <div class="namebox2">
+             <input type="text" placeholder="Last Name" required> <br> 
+        </div>
+        <div class="inputbox">
+            <form name="myform"  method="post" action="#" onsubmit="return validateemail();">  
+
+            <input type="text" placeholder="Email"  onkeyup="validateemail()" >
+        
+
+            <br>
+            <input type="text" placeholder="UserId" required><br>
+
+             <input type="text" placeholder="Password" onclick="passValidate()" ><br>
+             <input type="text" placeholder="Confirm Password" required><br>
+        </div>
+        <input type="checkbox" required> I accept the
+        <a href="https://www.indiafilings.com/website-terms-conditions-template#:~:text=WEBSITE%20TERMS%20AND%20SERVICES&text=The%20website%20terms%20and%20conditions,jurisdiction%20and%20other%20legal%20information." > Terms&Policies</a></a>
+             <div class="box5"> 
+<button onclick="Create()">Create</button>
+
+            </div>  
+
+    </div>
+  
+    </div>
+   
+    </body>
+    <script src="./exercise3.js" ></script>
+   
+</html>
